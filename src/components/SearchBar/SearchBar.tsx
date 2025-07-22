@@ -1,6 +1,6 @@
 import { FormEvent, useState } from "react";
 import toast from "react-hot-toast";
-import styles from "./SearchBar/SearchBar.module.css";
+import styles from "./SearchBar.module.css";
 
 interface Props {
   onSubmit: (query: string) => void;
